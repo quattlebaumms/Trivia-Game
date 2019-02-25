@@ -1,0 +1,55 @@
+body {
+  background-color: black;
+  color: white;
+  font-family: Montserrat, sans-serif;
+  font-size: 25px;
+}
+
+header {
+  color: #F1D864;
+  font-size: 50px;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.btn-primary,
+.reset {
+  background-color: white;
+  color: black;
+  font-family: Montserrat, sans-serif;
+  font-size: 20px;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+.btn-primary:hover,
+.reset:hover {
+  background-color: #F1D864;
+}
+
+.container {
+  margin-top: 50px;
+  text-align: center;
+  height: 100%;
+  width: 700px;
+}
+
+h2,
+#message,
+#finalMessage {
+  font-family: Montserrat, sans-serif;
+}
+
+.thisChoice:hover {
+  background-color:#F1D864;
+  color: black;
+  padding: 10px;
+}
+
+@media screen and (max-width:640px) {
+  .container {
+    width: 500px;
+    margin-top: 200px;
+    size: 200%;
+  }
+}
